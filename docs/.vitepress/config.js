@@ -1,8 +1,6 @@
 module.exports = {    
     publicDir: 'public',
     title: 'BackAppX',
-    themeColor: '#0077FF',
-    accentColor: '#0077FF',
     head: [
       [
          'link',
@@ -17,6 +15,11 @@ module.exports = {
         light: '/logo.png',
         dark: '/logo-dark.png'
        },
+       colors: {
+        accent: '#FF6347', // Example: change accent color to coral
+        textColor: '#333', // Example: change text color to dark grey
+        primary: '#1E90FF' // Example: change primary color to dodger blue
+      },
         
         siteTitle: "",
         
