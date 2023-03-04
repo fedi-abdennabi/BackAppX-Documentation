@@ -31,7 +31,7 @@ module.exports = {
             },
             {
               text: "Project Setup",
-              collapsible: false,
+              collapsible: true,
               items: [
                 { text: "Prerequisites", link: "/projectsetup/prerequisites" },
                 { text: "Create your application", link: "/projectsetup/create-application" },
