@@ -1,6 +1,8 @@
 module.exports = {    
     publicDir: 'public',
     title: 'BackAppX',
+    themeColor: '#0077FF',
+    accentColor: '#0077FF',
     head: [
       [
          'link',
