@@ -22,7 +22,11 @@ module.exports = {
       },
         
         siteTitle: "",
-        
+
+        nav: [
+          { text: 'BackAppX', link: 'http://localhost:3000' },
+          { text: 'Dashboard', link: 'http://localhost:3000/dashboard' },
+        ],
         
         sidebar: [
             {
