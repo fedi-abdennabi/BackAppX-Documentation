@@ -8,12 +8,6 @@ To get started with the BackAppX Dart SDK, you'll need to follow these steps:
 
 #### Here's an example of how to install the BackAppX Dart SDK in kotlin/java project:
 
-```kotlin
-implementation 'com.BackAppX:BackAppX-sdk:1.0.0'
-```
-#### Create a new instance of the BackAppX client and pass in your API key:
-
-```kotlin
-import com.BackAppX.sdk.BackAppXClient;
-BackAppXClient client = new BackAppXClient("YOUR_API_KEY_HERE");
+```Flutter
+import 'package:backappx/backappx.dart';
 ```

@@ -15,6 +15,8 @@ module.exports = {
         light: '/logo.png',
         dark: '/logo-dark.png'
        },
+       
+       
        colors: {
         accent: '#FF6347', // Example: change accent color to coral
         textColor: '#333', // Example: change text color to dark grey
@@ -24,8 +26,8 @@ module.exports = {
         siteTitle: "",
 
         nav: [
-          { text: 'BackAppX', link: 'http://localhost:3000' },
-          { text: 'Dashboard', link: 'http://localhost:3000/dashboard' },
+          { text: 'BackAppX', link: 'http://localhost:3000' , target: '_self' },
+          { text: 'Dashboard', link: 'http://localhost:3000/dashboard' , target: '_self' },
         ],
         
         sidebar: [
