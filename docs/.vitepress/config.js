@@ -67,7 +67,8 @@ module.exports = {
         text: "Payment",
         collapsible: true,
         items: [
-          { text: "Getting Started", link: "/payment/payementapi" },
+          { text: "Getting Started", link: "/payment/getting-started-payment" },
+          { text: "Payment", link: "/payment/payment" },
         ],
       },
       {
@@ -76,8 +77,6 @@ module.exports = {
         items: [
           { text: "Getting Started", link: "/apirest/getting-started-api" },
           { text: "Crud Api", link: "/apirest/crudapi" },
-          { text: "Payement Api", link: "/apirest/payementapi" },
-
         ],
       },
 
