@@ -8,8 +8,13 @@
 
 ## Here's an example of how to implement email and password :
 
-```kotlin
+```dart
+final email = emailController.text;
+final password = passwordController.text;
+
+final response = await backappx.login(email, password);
+setState(() {
+    loginResponse = response;
+});
 ```
 
-```java
-```
