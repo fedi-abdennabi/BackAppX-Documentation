@@ -8,6 +8,6 @@ To get started with the BackAppX Dart SDK, you'll need to follow these steps:
 
 #### Here's an example of how to install the BackAppX Dart SDK in kotlin/java project:
 
-```Flutter
+```dart
 import 'package:backappx/backappx.dart';
 ```
