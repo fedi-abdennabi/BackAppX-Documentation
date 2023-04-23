@@ -64,6 +64,13 @@ module.exports = {
         ],
       },
       {
+        text: "Payment",
+        collapsible: true,
+        items: [
+          { text: "Getting Started", link: "/payment/payementapi" },
+        ],
+      },
+      {
         text: "API (REST)",
         collapsible: true,
         items: [

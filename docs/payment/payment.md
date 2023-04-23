@@ -11,7 +11,10 @@ This API allows your app to perform payment-related tasks such as creating new p
 
 ### Here's an example of how to implement
 
-```kotlin
-```
-```java
+```dart
+
+final Payment _payment = Payment();
+String _cardElementId = '';
+final response = await _payment.pay(orderId, _cardElementId);
+
 ```
