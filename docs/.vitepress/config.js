@@ -92,9 +92,7 @@ module.exports = {
 
     ],
     socialLinks: [
-      { icon: "github", link: "https://github.com/medyassin-khabthani/BackAppX-Front" },
-      { icon: "twitter", link: "" },
-      { icon: "discord", link: "", target: "_blank" },
+      { icon: "github", link: "https://github.com/BackAppX" },
     ],
 
 
