@@ -10,8 +10,21 @@ Our API generator simplifies the process of creating APIs for CRUD (Create, Read
 
 ### Here's an example of how to implement
 
-```kotlin
-```
+```dart
 
-```java
+final response = await backappx.getProducts();
+setState(() {
+    ProductResponse = response;
+});
+
+final response = await backappx.getCategories();
+setState(() {
+    ProductResponse = response;
+});
+
+final response = await backappx.getOrders();
+setState(() {
+    ProductResponse = response;
+});
+
 ```
