@@ -80,14 +80,6 @@ module.exports = {
         ],
       },
 
-      {
-        text: "Extensions",
-        collapsible: true,
-        items: [
-          { text: "Getting Started", link: "/extensions/getting-started-ext" },
-          { text: "Trigger Email", link: "/extensions/triggeremail" },
-        ],
-      },
 
       {
         text: "Flutter SDK",
