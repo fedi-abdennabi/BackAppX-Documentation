@@ -2,12 +2,7 @@ module.exports = {
   publicDir: 'public',
   title: 'BackAppX',
   head: [
-    [
-      'link',
-      {
-        rel: 'stylesheet',
-      }
-    ],
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
 
   themeConfig: {
